@@ -8,6 +8,10 @@
   "short_name": "Test",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait",
+    "scripts":{
+  "deploy": "gh-pages -d web:build",
+"predeploy":"expo build:web"}
+},
   "related_applications": [
     {
       "platform": "play",
